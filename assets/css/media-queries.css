@@ -1,6 +1,5 @@
 @media only screen and (max-width: 1024px) {
     .hero {
-        background-position: 20% 0;
         background-size: cover;
     }
 
@@ -133,10 +132,6 @@
 
     .toggle {
         right: 1.75rem;
-    }
-
-    .hero {
-        background-position: 30% 0;
     }
 
     .hero__caption {
