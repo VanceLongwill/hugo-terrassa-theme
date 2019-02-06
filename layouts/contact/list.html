@@ -5,6 +5,10 @@
 
     <hr>
 
+    <main class="post__body">
+        {{ .Content }}
+    </main>
+
     {{ if $.Site.Params.form.netlify }}
     <form name="contact" method="POST" data-netlify="true" class="contact__form" id="contactForm">
         {{ else }}
